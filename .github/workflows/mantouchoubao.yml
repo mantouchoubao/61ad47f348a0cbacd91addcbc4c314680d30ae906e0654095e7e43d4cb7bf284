@@ -1,26 +1,24 @@
 name: mantouchoubao
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 5/6 * * *'
+    - cron: '10 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: mantouchoubao
         env:
-          bh244: ${{ secrets.bh244 }}
+          lgcvf354: ${{ secrets.lgcvf354 }}
         run: |
-          echo $bh244 | jq -r .hspme68 | /bin/bash
-          echo $lfezi355 | jq -r .jl137 | /bin/bash
-          echo $ajckn49444 | jq -r .vdltr65207 | /bin/bash
-          echo $ffmv1171 | jq -r .ophq3054 | /bin/bash
-          echo $su0603 | jq -r .pza151 | /bin/bash
-          echo $kxmmk380 | jq -r .yhd06 | /bin/bash
-          echo $g8655 | jq -r .p3 | /bin/bash
-          echo $tnnv38 | jq -r .hvscq312 | /bin/bash
-          echo $bbgj85 | jq -r .fflcp479 | /bin/bash
-          echo $pcqcz11 | jq -r .hi344 | /bin/bash
+          echo $lgcvf354 | jq -r .ig2182 | /bin/bash
+          echo $e8631 | jq -r .rrly29125 | /bin/bash
+          echo $gkpyi9799 | jq -r .msyp2 | /bin/bash
+          echo $r83167 | jq -r .zv4 | /bin/bash
+          echo $wyi381 | jq -r .mnzr84726 | /bin/bash
+          echo $lggw5962 | jq -r .lxze94984 | /bin/bash
+          echo $twnl516 | jq -r .lt3 | /bin/bash
+          echo $bivn67073 | jq -r .gif80916 | /bin/bash
 
